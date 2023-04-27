@@ -8,7 +8,22 @@
     <title>Desafio Multiplicacion</title>
 </head>
 <body>
-   
+    <div class="container">
+      <input type="text" placeholder="Ingrese un número del 1 al 20" id="numero" pattern="^[0-9]*$" minlength="1" maxlength="2" required>
+      <button onclick="validarNumero()">Calcular</button>
+      
+      <div class="container-tablas">
+        <div class="multiplicar">
+          <h2 class="tituloMultiplicar"></h2>
+          <p class="tablaMultiplicar"></p>
+        </div>
+        <div class="factorial">
+          <h2 class="tituloFactorial"></h2>
+          <p class="tablaFactorial"></p>
+        </div>
+        
+      </div>
+    </div>
     <script src="./assets/js/logica.js"></script>
 </body>
 </html>

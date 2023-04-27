@@ -1,0 +1,23 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-tablas {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tablaMultiplicar, .tablaFactorial {
+  text-align: left;
+}
+
+input {
+  width: 17%;
+}
